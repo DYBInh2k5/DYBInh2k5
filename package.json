@@ -1,0 +1,37 @@
+{
+  "name": "vo-duy-binh",
+  "version": "1.0.0",
+  "description": "- 👋 Hi, I'm Võ Duy Bình - AI Automation Specialist & Full-Stack Developer",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "tsc",
+    "dev": "ts-node src/app.ts",
+    "update-followers": "npm run build && npm start",
+    "test-setup": "node test-setup.js",
+    "validate": "node validate-setup.js",
+    "clean": "rm -rf dist",
+    "local": "npm run update-followers",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DYBInh2k5/DYBInh2k5.git"
+  },
+  "keywords": ["AI", "automation", "full-stack", "data-analysis", "chatbot", "github-profile"],
+  "author": "Võ Duy Bình <binh.vd01500@sinhvien.hoasen.edu.vn>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DYBInh2k5/DYBInh2k5/issues"
+  },
+  "homepage": "https://github.com/DYBInh2k5/DYBInh2k5#readme",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
