@@ -41,13 +41,13 @@
 
 ```typescript
 interface Developer {
-  name: string;
+  name:  string;
   role: string;
   location: string;
   languages: string[];
   code:  string[];
   askMeAbout: string[];
-  technologies: {
+  technologies:  {
     frontEnd: {
       js: string[];
       css: string[];
@@ -55,28 +55,36 @@ interface Developer {
     backEnd: string[];
     mobileApp: string[];
     ai: string[];
-@@ -70,20 +30,20 @@ interface Developer {
+    devOps: string[];
+    databases: string[];
+  };
+  architecture: string[];
+  currentFocus: string[];
+  funFact: string;
 }
 
 const coDY: Developer = {
-  name:  "Võ Duy Bình",
+  name: "Võ Duy Bình",
   role: "Multi-talented Tech Professional",
   location: "Ho Chi Minh City, Vietnam 🇻🇳",
   languages: ["Vietnamese", "English"],
   code: ["JavaScript", "TypeScript", "Python", "Java", "C++", "Go"],
   askMeAbout:  ["Web Dev", "AI/ML", "App Dev", "Digital Marketing", "Content Creation"],
-
+  
   technologies: {
     frontEnd: {
       js: ["React", "Next.js", "Vue.js", "Angular", "Svelte"],
       css: ["Tailwind", "Bootstrap", "Material-UI", "Sass"]
     },
     backEnd:  ["Node.js", "Express", "Django", "FastAPI", "Spring Boot"],
-    mobileApp:  ["React Native", "Flutter", "Swift", "Kotlin"],
+    mobileApp: ["React Native", "Flutter", "Swift", "Kotlin"],
     ai: ["TensorFlow", "PyTorch", "OpenAI", "LangChain", "Hugging Face"],
     devOps: ["Docker", "Kubernetes", "AWS", "Azure", "CI/CD", "Nginx"],
     databases: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Firebase"],
-@@ -101,311 +61,3 @@ const coDY: Developer = {
+  },
+  
+  architecture: ["Microservices", "RESTful API", "GraphQL", "Serverless"],
+  currentFocus:  ["AI Integration", "Cloud Architecture", "Performance Optimization"],
   funFact: "I turn coffee into code ☕ → 💻 → 🚀"
 };
 ```
