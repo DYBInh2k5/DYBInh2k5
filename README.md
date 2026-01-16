@@ -1,165 +1,289 @@
 <div align="center">
 
-# 👋 Xin chào, tôi là Võ Duy Bình
+<!-- Header with gradient background -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Võ%20Duy%20Bình&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
 
-### Full Stack Developer | AI Specialist | Content Creator | KOL
+<!-- Animated Profile Picture -->
+<img src="https://readme-typing-svg.demolab. com? font=Fira+Code&size=32&duration=2800&pause=2000&color=6366F1&center=true&vCenter=true&width=940&lines=Full+Stack+Developer+%F0%9F%92%BB;AI+%26+Automation+Specialist+%F0%9F%A4%96;Content+Creator+%26+KOL+%F0%9F%8E%AC;Digital+Marketing+Expert+%F0%9F%93%88;Building+Tomorrow's+Technology+Today+%F0%9F%9A%80" alt="Typing SVG" />
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Full+Stack+Developer+%F0%9F%92%BB;AI+%26+Automation+Specialist+%F0%9F%A4%96;Content+Creator+%26+KOL+%F0%9F%8E%AC;Digital+Marketing+Expert+%F0%9F%93%88;Building+the+Future+%F0%9F%9A%80)](https://git.io/typing-svg)
+<!-- Profile Views & Social Badges -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/? username=DYBInh2k5&label=Profile%20Views&color=brightgreen&style=flat-square" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/DYBInh2k5?label=Followers&style=flat-square&color=blue" alt="followers" />
+  <img src="https://img.shields.io/github/stars/DYBInh2k5?label=Stars&style=flat-square&color=yellow" alt="stars" />
+</p>
 
+<!-- Social Media Links with Custom Animation -->
 <p align="center">
   <a href="mailto:binh.vd01500@sinhvien.hoasen.edu.vn">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="https://www.linkedin.com/in/b%C3%ACnh-v%C3%B5-duy-5a9891308/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/TikTok-000000? style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok" />
+  <a href="https://www.facebook.com/binhdzkosai18cm">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
   </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+  <a href="https://gitlab.com/DYBInh2k5">
+    <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
+  </a>
+  <a href="https://github.com/DYBInh2k5">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
 
-![Profile Views](https://komarev.com/ghpvc/?username=DYBInh2k5&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)
-
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c. gif">
 
-## 🚀 Về Tôi
+<!-- About Me Section with Custom Design -->
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif? cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="32px"> Về Tôi
 
 ```typescript
-const coDY = {
-    name: "Võ Duy Bình",
-    role: "Multi-talented Tech Professional",
-    location: "Vietnam 🇻🇳",
-    
-    expertise: {
-        development: ["Full Stack", "Mobile Apps", "Game Dev"],
-        ai: ["Chatbots", "Automation", "Machine Learning"],
-        marketing: ["Social Media", "SEO", "E-commerce"],
-        content: ["Video Creation", "Blog Writing", "KOL"]
+interface Developer {
+  name: string;
+  role: string;
+  location: string;
+  languages: string[];
+  code:  string[];
+  askMeAbout: string[];
+  technologies: {
+    frontEnd: {
+      js: string[];
+      css: string[];
+    };
+    backEnd: string[];
+    mobileApp: string[];
+    ai: string[];
+    devOps: string[];
+    databases: string[];
+    misc: string[];
+  };
+  currentFocus: string;
+  funFact: string;
+  socialMedia: {
+    facebook: string;
+    linkedin: string;
+    gitlab: string;
+    github: string;
+  };
+}
+
+const coDY: Developer = {
+  name:  "Võ Duy Bình",
+  role: "Multi-talented Tech Professional",
+  location: "Ho Chi Minh City, Vietnam 🇻🇳",
+  languages: ["Vietnamese", "English"],
+  code: ["JavaScript", "TypeScript", "Python", "Java", "C++", "Go"],
+  askMeAbout:  ["Web Dev", "AI/ML", "App Dev", "Digital Marketing", "Content Creation"],
+  
+  technologies: {
+    frontEnd: {
+      js: ["React", "Next.js", "Vue.js", "Angular", "Svelte"],
+      css: ["Tailwind", "Bootstrap", "Material-UI", "Sass"]
     },
-    
-    currentFocus: "Building AI-powered solutions 🤖",
-    askMeAbout: ["Tech", "Personal Branding", "Digital Marketing"],
-    
-    funFact: "I turn coffee into code ☕️ → 💻"
+    backEnd:  ["Node.js", "Express", "Django", "FastAPI", "Spring Boot"],
+    mobileApp:  ["React Native", "Flutter", "Swift", "Kotlin"],
+    ai: ["TensorFlow", "PyTorch", "OpenAI", "LangChain", "Hugging Face"],
+    devOps: ["Docker", "Kubernetes", "AWS", "Azure", "CI/CD", "Nginx"],
+    databases: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Firebase"],
+    misc: ["Git", "Figma", "Postman", "Selenium", "GraphQL"]
+  },
+  
+  socialMedia: {
+    facebook: "binhdzkosai18cm",
+    linkedin: "bình-võ-duy-5a9891308",
+    gitlab: "DYBInh2k5",
+    github: "DYBInh2k5"
+  },
+  
+  currentFocus: "Building AI-powered solutions & Growing my digital presence 🚀",
+  funFact: "I turn coffee into code ☕ → 💻 → 🚀"
 };
 ```
 
 <details>
-<summary>📊 More About Me</summary>
+<summary><b>📊 Thông tin chi tiết</b></summary>
 
-- 🔭 Currently working on **AI & Automation Projects**
-- 🌱 Learning **Advanced AI/ML & Cloud Architecture**
-- 👯 Looking to collaborate on **Open Source & Innovative Projects**
-- 💬 Ask me about **Full Stack Development, AI, Digital Marketing**
-- 📫 Reach me at **binh. vd01500@sinhvien.hoasen.edu. vn**
-- ⚡ Fun fact: **I create content while coding! **
+<br>
+
+- 🔭 **Hiện tại:** Đang phát triển các dự án AI & Automation
+- 🌱 **Đang học:** Advanced AI/ML, Cloud Architecture, Web3
+- 👯 **Hợp tác:** Mở cho các dự án Open Source và Startup
+- 💼 **Kinh nghiệm:** 3+ năm trong Full Stack Development
+- 🎯 **Mục tiêu 2026:** Launch 5 successful products & Grow to 100K followers
+- 💬 **Hỏi tôi về:** Tech, Coding, AI, Marketing, Personal Branding
+- 📫 **Liên hệ:** binh.vd01500@sinhvien.hoasen. edu.vn
+- ⚡ **Fun fact:** Tôi có thể code 12 giờ liên tục nếu có đủ cà phê ☕
 
 </details>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c. gif">
 
-## 💻 Tech Stack
+<!-- Tech Stack with Better Organization -->
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35px"> Tech Stack & Skills
 
 <div align="center">
 
-### 🎨 Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+### 🎨 Frontend Development
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,vue,angular,svelte,typescript,javascript,html,css,tailwind,bootstrap,sass,materialui" />
+</p>
 
-### ⚙️ Backend
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+### ⚙️ Backend Development
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,python,django,fastapi,java,spring,go,php,laravel" />
+</p>
 
-### 🤖 AI & Data Science
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C? style=for-the-badge&logo=pytorch&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991? style=for-the-badge&logo=openai&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+### 📱 Mobile Development
+<p>
+  <img src="https://skillicons.dev/icons?i=react,flutter,kotlin,swift,androidstudio,xcode" />
+</p>
 
-### 🗄️ Databases
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+### 🤖 AI/ML & Data Science
+<p>
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,python,opencv" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+</p>
+
+### 🗄️ Databases & Storage
+<p>
+  <img src="https://skillicons.dev/icons?i=mongodb,postgresql,mysql,redis,firebase,supabase" />
+</p>
 
 ### ☁️ Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,jenkins,gitlab,github,vercel,netlify,nginx" />
+</p>
 
-### 🛠️ Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+### 🛠️ Tools & Others
+<p>
+  <img src="https://skillicons.dev/icons?i=git,vscode,figma,postman,linux,bash,powershell" />
+</p>
+
+### 📊 Marketing & Design
+<p>
+  <img src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=adobe-photoshop&logoColor=white" />
+  <img src="https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobe-illustrator&logoColor=white" />
+  <img src="https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF?style=for-the-badge&logo=adobe-premiere-pro&logoColor=white" />
+  <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=for-the-badge&logo=google-analytics&logoColor=white" />
+  <img src="https://img.shields.io/badge/Facebook%20Ads-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
+</p>
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c. gif">
 
-## 🎯 Featured Projects
+<!-- Featured Projects with Better Design -->
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40px"> Dự Án Nổi Bật
 
 <div align="center">
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🤖 AI Content Generator
-Automation tool for social media content creation
-- ✨ AI-powered content generation
-- 🎨 Multi-platform support
-- 📊 Analytics dashboard
+### 🤖 AI Content Generator Pro
+[![GitHub](https://img.shields.io/badge/GitHub-View_Code-black?style=flat-square&logo=github)](https://github.com/DYBInh2k5)
 
-**Tech:** Python, OpenAI, React
+<img src="https://img.shields.io/badge/Status-Active-success?style=flat-square" />
+<img src="https://img.shields.io/badge/Version-2.0-blue?style=flat-square" />
+
+**AI-powered tool tạo content tự động cho social media**
+
+🎯 **Features:**
+- ✨ Multi-platform content generation
+- 🎨 Smart hashtag suggestions
+- 📊 Performance analytics
+- 🔄 Automated posting scheduler
+- 💡 AI-powered copywriting
+
+**Tech Stack:**
+```
+Python | OpenAI GPT-4 | FastAPI
+React | TailwindCSS | MongoDB
+```
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 📱 Social Media Bot Suite
-Comprehensive automation for social platforms
-- 🔄 Auto-posting scheduler
-- 💬 Smart engagement bot
-- 📈 Growth analytics
+### 📱 Social Growth Suite
+[![GitHub](https://img.shields.io/badge/GitHub-View_Code-black?style=flat-square&logo=github)](https://github.com/DYBInh2k5)
 
-**Tech:** Node.js, Puppeteer, MongoDB
+<img src="https://img.shields.io/badge/Status-Active-success?style=flat-square" />
+<img src="https://img.shields.io/badge/Version-1.5-blue?style=flat-square" />
+
+**Comprehensive automation suite cho social media**
+
+🎯 **Features:**
+- 🔄 Multi-account management
+- 💬 Smart auto-reply chatbot
+- 📈 Growth analytics dashboard
+- 🎯 Target audience analysis
+- ⏰ Smart scheduling system
+
+**Tech Stack:**
+```
+Node.js | TypeScript | Express
+Puppeteer | Redis | PostgreSQL
+```
 
 </td>
 </tr>
 
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 💼 E-commerce Dashboard
-Complete analytics platform for online business
-- 📊 Real-time metrics
-- 🎯 Customer insights
-- 💰 Revenue tracking
+### 💼 E-commerce Analytics Pro
+[![GitHub](https://img.shields.io/badge/GitHub-View_Code-black?style=flat-square&logo=github)](https://github.com/DYBInh2k5)
 
-**Tech:** Next.js, PostgreSQL, TailwindCSS
+<img src="https://img.shields.io/badge/Status-Beta-yellow?style=flat-square" />
+<img src="https://img.shields.io/badge/Version-0.9-blue?style=flat-square" />
+
+**Real-time analytics platform cho online business**
+
+🎯 **Features:**
+- 📊 Real-time sales tracking
+- 🎯 Customer behavior analysis
+- 💰 Revenue forecasting
+- 📈 Marketing ROI calculator
+- 🔔 Smart alert system
+
+**Tech Stack:**
+```
+Next.js 14 | TypeScript
+PostgreSQL | Redis | AWS
+Chart.js | TailwindCSS
+```
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🎬 Video Script Generator
-AI-powered script creation for content creators
-- 🤖 GPT-4 integration
+### 🎬 AI Video Script Studio
+[![GitHub](https://img.shields.io/badge/GitHub-View_Code-black?style=flat-square&logo=github)](https://github.com/DYBInh2k5)
+
+<img src="https://img.shields.io/badge/Status-Active-success?style=flat-square" />
+<img src="https://img.shields.io/badge/Version-1.2-blue?style=flat-square" />
+
+**AI script generator cho content creators**
+
+🎯 **Features:**
+- 🤖 GPT-4 powered script generation
 - 🎭 Multiple content styles
 - 📝 SEO optimization
+- 🎬 Scene breakdown
+- 🔊 Voice-over suggestions
 
-**Tech:** Python, FastAPI, React
+**Tech Stack:**
+```
+Python | FastAPI | OpenAI
+React | Redux | MongoDB
+TailwindCSS | Docker
+```
 
 </td>
 </tr>
@@ -167,75 +291,121 @@ AI-powered script creation for content creators
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c. gif">
 
-## 📊 GitHub Analytics
+<!-- GitHub Stats with Better Design -->
+## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="35px"> GitHub Statistics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=DYBInh2k5&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=c9d1d9"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DYBInh2k5&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=c9d1d9&langs_count=8"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=DYBInh2k5&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=c9d1d9&count_private=true&include_all_commits=true" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=DYBInh2k5&theme=tokyonight&hide_border=true&background=0D1117&stroke=6366F1&ring=6366F1&fire=F59E0B&currStreakLabel=c9d1d9" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DYBInh2k5&theme=tokyonight&hide_border=true&background=0D1117&stroke=6366F1&ring=6366F1&fire=F59E0B&currStreakLabel=c9d1d9" alt="GitHub Streak" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DYBInh2k5&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=c9d1d9&langs_count=10" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/wakatime?username=DYBInh2k5&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=c9d1d9" />
 </div>
+
+<!-- Contribution Graph -->
+<div align="center">
+  <img width="98%" src="https://github-readme-activity-graph.vercel. app/graph?username=DYBInh2k5&theme=react-dark&hide_border=true&bg_color=0D1117&color=6366F1&line=6366F1&point=c9d1d9&area=true&area_color=6366F1" />
+</div>
+
+<!-- Contribution Snake -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DYBInh2k5/DYBInh2k5/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DYBInh2k5/DYBInh2k5/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/DYBInh2k5/DYBInh2k5/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<!-- GitHub Trophies -->
+## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40px"> GitHub Achievements
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel. app/graph?username=DYBInh2k5&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=6366F1&line=6366F1&point=c9d1d9" alt="Contribution Graph" />
+  <img src="https://github-profile-trophy.vercel.app/?username=DYBInh2k5&theme=tokyonight&no-frame=true&no-bg=true&column=8&margin-w=10&margin-h=10" />
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 🏆 GitHub Achievements
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel. app/?username=DYBInh2k5&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="Trophies" />
-</div>
-
----
-
-## 📈 Contribution Calendar
-
-<div align="center">
-  
-![Snake animation](https://github.com/DYBInh2k5/DYBInh2k5/blob/output/github-contribution-grid-snake.svg)
-
-</div>
-
----
-
-## 💡 Random Dev Quote
-
-<div align="center">
-
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
-</div>
-
----
-
-## 🎵 Coding Vibes
+<!-- Coding Stats -->
+## 📊 Coding Activity & Stats
 
 <div align="center">
 
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_ID&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_ID&redirect=true)
+<!--START_SECTION: waka-->
+```text
+TypeScript   12 hrs 45 mins  ████████████░░░░░░░░░  48.50 %
+Python       8 hrs 20 mins   ████████░░░░░░░░░░░░░  31.75 %
+JavaScript   3 hrs 15 mins   ███░░░░░░░░░░░░░░░░░░  12.40 %
+JSON         1 hr 10 mins    █░░░░░░░░░░░░░░░░░░░░  04.47 %
+Markdown     45 mins         ▓░░░░░░░░░░░░░░░░░░░░  02.88 %
+```
+<!--END_SECTION:waka-->
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c. gif">
+
+<!-- Random Dev Quote -->
+## 💭 Quote of the Day
 
 <div align="center">
 
-### 💭 "Building the future, one commit at a time 🚀"
-
-### Show some ❤️ by starring some repositories!
-
-![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom. svg)
-
----
-
-**© 2026 Võ Duy Bình (coDY) | Made with ❤️ and ☕️**
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true)
 
 </div>
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+<!-- Contact Me Section -->
+## 📬 Let's Connect & Collaborate! 
+
+<div align="center">
+
+<p>
+  <a href="mailto:binh.vd01500@sinhvien.hoasen.edu.vn">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/b%C3%ACnh-v%C3%B5-duy-5a9891308/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://www.facebook.com/binhdzkosai18cm">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
+  </a>
+  <a href="https://gitlab.com/DYBInh2k5">
+    <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
+  </a>
+  <a href="https://github.com/DYBInh2k5">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+**📧 For Business Inquiries:** binh.vd01500@sinhvien.hoasen.edu.vn  
+**🤝 Open for:** Freelance Projects | Collaborations | Speaking Opportunities
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c. gif">
+
+<!-- Footer -->
+<div align="center">
+
+### 💭 *"Code is like humor. When you have to explain it, it's bad."* – Cory House
+
+### ⭐ Show some love by starring my repositories! ⭐
+
+<img src="https://capsule-render.vercel.app/api? type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+
+**© 2026 Võ Duy Bình | Built with ❤️, ☕ and lots of 💻**
+
+<p>
+  <img src="https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg" />
+  <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
+</p>
+
+</div>
