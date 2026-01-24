@@ -4,11 +4,11 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Võ%20Duy%20Bình&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
 
 <!-- Animated Profile Picture -->
-<img src="https://readme-typing-svg.demolab. com? font=Fira+Code&size=32&duration=2800&pause=2000&color=6366F1&center=true&vCenter=true&width=940&lines=Full+Stack+Developer+%F0%9F%92%BB;AI+%26+Automation+Specialist+%F0%9F%A4%96;Content+Creator+%26+KOL+%F0%9F%8E%AC;Digital+Marketing+Expert+%F0%9F%93%88;Building+Tomorrow's+Technology+Today+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=6366F1&center=true&vCenter=true&width=940&lines=Full+Stack+Developer+%F0%9F%92%BB;AI+%26+Automation+Specialist+%F0%9F%A4%96;Content+Creator+%26+KOL+%F0%9F%8E%AC;Digital+Marketing+Expert+%F0%9F%93%88;Building+Tomorrow's+Technology+Today+%F0%9F%9A%80" alt="Typing SVG" />
 
 <!-- Profile Views & Social Badges -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/? username=DYBInh2k5&label=Profile%20Views&color=brightgreen&style=flat-square" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=DYBInh2k5&label=Profile%20Views&color=brightgreen&style=flat-square" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/DYBInh2k5?label=Followers&style=flat-square&color=blue" alt="followers" />
   <img src="https://img.shields.io/github/stars/DYBInh2k5?label=Stars&style=flat-square&color=yellow" alt="stars" />
 </p>
@@ -34,10 +34,10 @@
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c. gif">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <!-- About Me Section with Custom Design -->
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif? cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="32px"> Về Tôi
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="32px"> Về Tôi
 
 <table>
 <tr>
@@ -45,22 +45,34 @@
 
 ### 👨‍💻 Thông tin cơ bản
 
-- 🧑 **Tên:** Võ Duy Bình
-- 💼 **Vai trò:** Multi-talented Tech Professional
-- 📍 **Địa điểm:** Ho Chi Minh City, Vietnam 🇻🇳
-- 🗣️ **Ngôn ngữ:** Vietnamese, English
+- 🧑 **Họ tên:** Võ Duy Bình (Nickname: coDY)
+- 🎂 **Ngày sinh:** 02/07/2005 (19 tuổi)
+- 💼 **Vai trò:** Senior Full Stack Developer & AI Specialist
+- 📍 **Địa điểm:** Thành phố Hồ Chí Minh, Việt Nam 🇻🇳
+- 🎓 **Học vấn:** Sinh viên Đại học Hoa Sen
+- �️ **Ngôn ngữ:** Tiếng Việt (Bản ngữ), English (Thành thạo)
 - 💻 **Ngôn ngữ lập trình:** JavaScript, TypeScript, Python, Java, C++, Go
+- 📚 **Đang học thêm:** 中文 (Tiếng Trung), 日本語 (Tiếng Nhật), 한국어 (Tiếng Hàn)
 
 </td>
 <td>
 
 ### 🎯 Chuyên môn
 
-- 🌐 **Web Development** (Full Stack)
-- 🤖 **AI/ML** (Machine Learning & Deep Learning)
-- 📱 **App Development** (Mobile & Cross-platform)
-- 📈 **Digital Marketing** (SEO, SEM, Social Media)
-- 🎬 **Content Creation** (Video, Blog, Social Media)
+- 🌐 **Full Stack Web Development** (Frontend & Backend)
+- 🤖 **AI/ML Engineering** (Machine Learning & Deep Learning)
+- 📱 **Mobile App Development** (Cross-platform Solutions)
+- 📈 **Digital Marketing Strategy** (SEO, SEM, Social Media Marketing)
+- 🎬 **Content Creation & Strategy** (Video Production, Technical Writing)
+- ☁️ **Cloud Architecture** (AWS, Azure, DevOps)
+
+### 🎯 Sở thích & Đam mê
+
+- 💻 **Công nghệ:** Đam mê mãnh liệt về IT và các xu hướng công nghệ mới
+- ⚽ **Thể thao:** Fan cuồng của Cristiano Ronaldo 🐐
+- 🤼 **Giải trí:** WWE enthusiast từ năm 2010 💪
+- 📚 **Học tập:** Không ngừng cải thiện bản thân mỗi ngày
+- 🌍 **Ngôn ngữ:** Đang mở rộng khả năng giao tiếp đa văn hóa
 
 </td>
 </tr>
@@ -125,13 +137,15 @@
 
 ### 🎯 Hiện tại đang tập trung vào
 
-- 🤖 AI Integration
-- ☁️ Cloud Architecture
-- ⚡ Performance Optimization
+- 🌏 **Multilingual Communication Skills** (中文, 日本語, 한국어)
+- 📈 **Personal Growth & Continuous Learning**
+- 🚀 **Advanced Project Development**
+- 🤝 **Community Building & Networking**
+- �  **Innovation & Creative Problem Solving**
 
-### ⚡ Fun Fact
+### ⚡ Triết lý làm việc
 
-> 💡 I turn coffee into code ☕ → 💻 → 🚀
+> 💡 "Chuyển đổi ý tưởng thành giải pháp công nghệ" ☕ → 💻 → 🚀
 
 
 <details>
@@ -140,17 +154,18 @@
 <br>
 
 - 🔭 **Hiện tại:** Đang phát triển các dự án AI & Automation
-- 🌱 **Đang học:** Advanced AI/ML, Cloud Architecture, Web3
+- 🌱 **Đang học:** Advanced AI/ML, Cloud Architecture, Web3, Multilingual Skills
 - 👯 **Hợp tác:** Mở cho các dự án Open Source và Startup
-- 💼 **Kinh nghiệm:** 3+ năm trong Full Stack Development
-- 🎯 **Mục tiêu 2026:** Launch 5 successful products & Grow to 100K followers
-- 💬 **Hỏi tôi về:** Tech, Coding, AI, Marketing, Personal Branding
-- 📫 **Liên hệ:** binh.vd01500@sinhvien.hoasen. edu.vn
-- ⚡ **Fun fact:** Tôi có thể code 12 giờ liên tục nếu có đủ cà phê ☕
+- 💼 **Kinh nghiệm:** 3+ năm trong Full Stack Development & AI Integration
+- 🎯 **Mục tiêu 2026:** Phát triển 5 sản phẩm công nghệ thành công & Xây dựng cộng đồng 100K+ followers
+- 💬 **Tư vấn về:** Technology Stack, AI Implementation, Digital Marketing Strategy, Personal Branding
+- 📫 **Liên hệ công việc:** binh.vd01500@sinhvien.hoasen.edu.vn
+- ⚡ **Phong cách làm việc:** Tập trung cao độ với sự hỗ trợ của cà phê ☕ - có thể code liên tục 12+ giờ
+- 🎮 **Fun Facts:** Fan của Ronaldo ⚽, WWE từ 2010 🤼, và đam mê IT không giới hạn 💻
 
 </details>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c. gif">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <!-- Tech Stack with Better Organization -->
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35px"> Tech Stack & Skills
@@ -206,9 +221,18 @@
   <img src="https://img.shields.io/badge/Facebook%20Ads-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
 </p>
 
+### 🚀 Specialized Skills
+<p>
+  <img src="https://img.shields.io/badge/AI%20Integration-FF6B6B?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cloud%20Architecture-4ECDC4?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Performance%20Optimization-45B7D1?style=for-the-badge&logo=speedtest&logoColor=white" />
+  <img src="https://img.shields.io/badge/System%20Design-96CEB4?style=for-the-badge&logo=diagramsdotnet&logoColor=white" />
+  <img src="https://img.shields.io/badge/API%20Development-FFEAA7?style=for-the-badge&logo=postman&logoColor=black" />
+</p>
+
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c. gif">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <!-- Featured Projects with Better Design -->
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40px"> Dự Án Nổi Bật
@@ -323,7 +347,7 @@ TailwindCSS | Docker
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c. gif">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <!-- GitHub Stats with Better Design -->
 ## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="35px"> GitHub Statistics
@@ -340,7 +364,7 @@ TailwindCSS | Docker
 
 <!-- Contribution Graph -->
 <div align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel. app/graph?username=DYBInh2k5&theme=react-dark&hide_border=true&bg_color=0D1117&color=6366F1&line=6366F1&point=c9d1d9&area=true&area_color=6366F1" />
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=DYBInh2k5&theme=react-dark&hide_border=true&bg_color=0D1117&color=6366F1&line=6366F1&point=c9d1d9&area=true&area_color=6366F1" />
 </div>
 
 <!-- Contribution Snake -->
@@ -380,7 +404,7 @@ Markdown     45 mins         ▓░░░░░░░░░░░░░░░░
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c. gif">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <!-- Random Dev Quote -->
 ## 💭 Quote of the Day
@@ -416,21 +440,21 @@ Markdown     45 mins         ▓░░░░░░░░░░░░░░░░
   </a>
 </p>
 
-**📧 For Business Inquiries:** binh.vd01500@sinhvien.hoasen.edu.vn  
-**🤝 Open for:** Freelance Projects | Collaborations | Speaking Opportunities
+**📧 Liên hệ công việc:** binh.vd01500@sinhvien.hoasen.edu.vn  
+**🤝 Mở cho:** Dự án Freelance | Hợp tác Chiến lược | Cơ hội Diễn thuyết | Tư vấn Công nghệ
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c. gif">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <!-- Footer -->
 <div align="center">
 
-### 💭 *"Code is like humor. When you have to explain it, it's bad."* – Cory House
+### 💭 *"Code is poetry written in logic."* – Võ Duy Bình
 
-### ⭐ Show some love by starring my repositories! ⭐
+### ⭐ Hãy star các repository của tôi nếu thấy hữu ích! ⭐
 
-<img src="https://capsule-render.vercel.app/api? type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
 
 **© 2026 Võ Duy Bình | Built with ❤️, ☕ and lots of 💻**
 
